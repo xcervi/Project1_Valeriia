@@ -3,7 +3,7 @@ Welcome to the repository for Automation Tests. The project is created for pract
 
 ## Installation
 1. Clone the repository:
-  `git clone _url_`
+  `git clone url`
 
 2. Install dependencies:
   `npm install`
@@ -11,7 +11,7 @@ Welcome to the repository for Automation Tests. The project is created for pract
 ## Usage
 To use this project, you can start writing and running tests as follows:
 1. **Open the project in your preferred code editor**.
-2. **Add or modify test files in the `src/tests` directory**.
+2. **Add or modify test files in the `tests` directory**.
 
 ## Running Tests
 You can run the tests using the following commands:
@@ -20,7 +20,7 @@ You can run the tests using the following commands:
     `npm test`
 
 2. **Run Playwright tests**:
-    `npx playwright _test_`
+    `npx playwright test`
 
 3. **Run tests in UI Mode**:
-    `npx playwright _test_ --ui`
+    `npx playwright test --ui`
